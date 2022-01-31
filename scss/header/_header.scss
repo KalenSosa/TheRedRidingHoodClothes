@@ -1,0 +1,92 @@
+header {
+    width: auto;
+    height: auto;
+    background-image: url(../img/otoño2.jpg);
+    background-size: cover;
+    border: 10px double #610B0B;
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            text-align: center !important;
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+
+        .logo {
+            margin-top: -47px;
+            display: block;
+
+            img {
+                padding: 0;
+                width: 123px;
+                height: auto;
+                margin: 10px;
+            }
+
+        }
+
+
+        ul {
+
+            text-align: center;
+            text-decoration: none;
+            padding: 0;
+            margin: 18px;
+
+
+            .nav-link {
+                color: white;
+                margin: 4px;
+                display: block;
+            }
+        }
+
+        .dropdown-item:focus,
+        .dropdown-item:hover {
+            background-color: rgb(150, 29, 29);
+        }
+
+        .dropdown-menu {
+            background-color:rgb(34, 26, 26);
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .button-ingresa {
+            margin-left: 6px;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        color: white;
+    }
+
+    .dropdown-toggle::after {
+        color: transparent;
+    }
+
+    .fa-sign-in-alt:before {
+        content: "\f2f6";
+        font-size: 30px;
+        color: white;
+    }  
+      
+}

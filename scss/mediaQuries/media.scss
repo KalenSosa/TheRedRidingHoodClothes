@@ -1,0 +1,118 @@
+@media (min-width:320px) and (max-width:425px) {
+    
+    body .w-100 {
+        width: 310px !important;
+    }
+
+    body .carousel-caption {
+        right: 3px;
+        bottom: auto;
+        left: 1px;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+    }
+
+    .py-3 {
+        width: 154px;
+    }
+
+    .dropdown-item {
+        background-color: white;
+    }
+
+
+    header {
+        height: auto;
+
+        .flex {
+
+            h1 {
+                font-size: 30px;
+                padding-left: 0%;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .logo {
+                img {
+                    width: 82px;
+                    margin-top: 2.5rem;
+                    margin-left: 146px;
+                    padding-top: 30px;
+
+                }
+            }
+
+
+            ul.nav {
+                display: block;
+                margin: 0%;
+                padding-left: 0%;
+                padding: 5px;
+            }
+
+
+            .dropdown-item {
+                color: black;
+                background-color: blanchedalmond;
+            }
+
+            footer {
+
+                h2 {
+                    text-align: start;
+                    font-size: 9px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    margin: 10px;
+                    padding-left: 0;
+                }
+
+                li {
+                    display: block;
+                    font-size: 12px;
+                    padding-left: 0;
+
+                }
+
+                h4 {
+                    font-size: 9px;
+                    margin: 4px;
+                }
+            }
+        }
+    }
+
+    .py-3 {
+        width: 154px;
+    }
+
+    .dropdown-item {
+        background-color: white;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    header .flex .logo img {
+        margin-top: 35px;
+    }
+
+    body .w-100 {
+        width: 400px !important;
+        margin-top: 9px;
+        margin-bottom: 15px;
+        border-radius: 50%;
+    }
+
+    body .carousel-caption {
+        right: 49px;
+        left: 437px;
+        bottom: 4px;
+    }
+}

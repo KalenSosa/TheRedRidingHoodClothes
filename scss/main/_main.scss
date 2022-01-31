@@ -1,0 +1,81 @@
+body {
+
+    background-color: rgb(34, 26, 26);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    main {
+
+        .galeria {
+            display: grid;
+            grid-auto-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            grid-auto-flow: row dense;
+
+
+            .galeria img {
+                width: 100vw;
+                object-fit: cover;
+
+
+                .galeria img:nth-child(1) {
+                    grid-column: span 2;
+                }
+            }
+        }
+
+
+        .main__texto {
+            color: wheat;
+            padding: 41px;
+            margin-bottom: 10px;
+        }
+
+
+        .zoom {
+            transition: transform .2s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .btn-primary {
+            margin: 5px;
+        }
+
+        .form-control {
+            width: 40%;
+
+
+            textarea {
+                width: 500px;
+                height: 150px;
+            }
+        }
+
+        body p {
+            margin: 1rem;
+            padding: 1rem;
+            margin-bottom: 0%;
+        }
+
+        .mt-2 {
+            margin-top: 40px;
+            margin-right: 0.5rem;
+        }
+    }
+  
+    .w-100 {    
+        width: 700px !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 50%;
+    }
+
+    .carousel-caption{  
+        right: 30px;
+        left: 748px;
+        bottom: 395px;
+    }
+}
