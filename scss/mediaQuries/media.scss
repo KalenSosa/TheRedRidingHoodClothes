@@ -1,49 +1,27 @@
 @media (min-width:320px) and (max-width:425px) {
-    
-    body .w-100 {
-        width: 310px !important;
-    }
-
-    body .carousel-caption {
-        right: 3px;
-        bottom: auto;
-        left: 1px;
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
-        color: #fff;
-    }
-
-    .py-3 {
-        width: 154px;
-    }
-
-    .dropdown-item {
-        background-color: white;
-    }
-
 
     header {
         height: auto;
 
         .flex {
 
+            .logo {
+                margin-left: 146px;
+                padding-top: 30px;
+
+                img {
+                    width: 82px;
+                    margin-top: 2.5rem;
+                }
+            }
+
             h1 {
                 font-size: 30px;
                 padding-left: 0%;
                 margin-top: 20px;
                 text-align: center;
+                margin-bottom: 0%;
             }
-
-            .logo {
-                img {
-                    width: 82px;
-                    margin-top: 2.5rem;
-                    margin-left: 146px;
-                    padding-top: 30px;
-
-                }
-            }
-
 
             ul.nav {
                 display: block;
@@ -86,6 +64,28 @@
         }
     }
 
+
+    body .w-100 {
+        width: 310px !important;
+    }
+
+    body .carousel-caption {
+        right: 3px;
+        bottom: auto;
+        left: 1px;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+    }
+
+    .py-3 {
+        width: 154px;
+    }
+
+    .dropdown-item {
+        background-color: white;
+    }
+
     .py-3 {
         width: 154px;
     }
@@ -101,6 +101,7 @@
 
     header .flex .logo img {
         margin-top: 35px;
+        
     }
 
     body .w-100 {
