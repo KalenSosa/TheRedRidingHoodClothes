@@ -1,0 +1,17 @@
+Index:
+
+- KEYWORDS: Usando la etiqueta Meta Keywards utilice las siguientes palabras claves. Dichas palabras varian segun el HTML utilizado "ropa, gotico, coret, pin-up, disfrases, vestidos, caperucita".
+
+- DESCRIPCION: Usando la etiquedat Meta Description para mi HTML puse el siguiente parrafo explicativo "Pagina de Ropa Gotica,tambien tenemos a disposicion carteras, disfraces, vestidos,
+  corsets y zapatos para tu gusto" que tambien varian segun el HTML.
+
+- TITULO H1: Todas las paginas de mis HTML utilizan un H1 con el encabezado "The Red Riding Hood Clothes".
+
+- ETIQUETA TITLE: La etiqueta Title cambia segun el html, si se cambia de seccion la etiqueta de title muestra la seccion utilizada por el usuario.
+
+- MAIN/IMG: Las imagenes de los Main no fueron optimizadas porque al intentar hacerlo se deformaban,pero me asegure de que no fueran tan pesadas para el proyecto y para la pagina.
+
+- FOOTER: En el footer de todos los HTML se encuentran un opciones de navegacion para el usuario y ademas de las diferentes redes de comunicacion para la facil atencion del mismo.
+
+
+
