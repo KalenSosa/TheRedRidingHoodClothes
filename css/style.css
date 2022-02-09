@@ -71,7 +71,7 @@ footer {
   background-image: url(https://i.pinimg.com/564x/65/fa/ee/65faeeded3d8df2a850a9411ee8f1a2d.jpg);
   display: flex;
   color: white;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%;
   justify-content: space-evenly;
   margin-top: 8px; }
@@ -84,13 +84,13 @@ footer {
     color: white;
     font-size: 10px; }
   footer .legales:hover {
-    color: violet; }
+    color: red; }
   footer .informacion {
     display: block;
     color: white;
     font-size: 10px; }
   footer .informacion:hover {
-    color: violet; }
+    color: red; }
   footer h2 {
     text-align: center;
     font-size: 16px; }
